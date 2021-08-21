@@ -21,9 +21,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prisma/client@npm:2.30.0-dev.35":
-  version: 2.30.0-dev.35
-  resolution: "@prisma/client@npm:2.30.0-dev.35"
+"@prisma/client@npm:2.30.0-integration-undici-4.3":
+  version: 2.30.0-integration-undici-4.3
+  resolution: "@prisma/client@npm:2.30.0-integration-undici-4.3"
   dependencies:
     "@prisma/engines-version": 2.30.0-22.6ee261c643b2c461a20371f48ffa5090ed578aaf
   peerDependencies:
@@ -31,7 +31,7 @@ __metadata:
   peerDependenciesMeta:
     prisma:
       optional: true
-  checksum: ef2ca610e599bb4d9c8118eab7f43bb5555ea512d11a04de781593aa2beba2c2434c03aba48b24ae8866a25ab4b530dce3129fac07203b994452f7db99249c19
+  checksum: a6eb06f5be13b3fe535d516b83ca3551c3d6487dec478f60bd6d0824a36c5dccd6239b4300cb943e4b84b2896bd7dd203a6fc9fd2d8db59ca0ffe7fa5ba3df53
   languageName: node
   linkType: hard
 
@@ -128,15 +128,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prisma@npm:2.30.0-dev.35":
-  version: 2.30.0-dev.35
-  resolution: "prisma@npm:2.30.0-dev.35"
+"prisma@npm:2.30.0-integration-undici-4.3":
+  version: 2.30.0-integration-undici-4.3
+  resolution: "prisma@npm:2.30.0-integration-undici-4.3"
   dependencies:
     "@prisma/engines": 2.30.0-22.6ee261c643b2c461a20371f48ffa5090ed578aaf
   bin:
     prisma: build/index.js
     prisma2: build/index.js
-  checksum: be75243cff5f7a0c1e63d2f347b3570a95ab0d32d700767f85fb1f56bd2dfabb40d3b32e80e1cd099ece0eae116306d4bd93377350d729e35581fcc47cea60a0
+  checksum: e34b4c0f4f62814f690ac3be5efba270a2ae73df60901b760565bdc0a66b05de49d60700d5a0e86bb1ac4521966c73942eb851235aa54bc275db7d204709bb4e
   languageName: node
   linkType: hard
 
@@ -144,9 +144,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "script@workspace:."
   dependencies:
-    "@prisma/client": 2.30.0-dev.35
+    "@prisma/client": 2.30.0-integration-undici-4.3
     "@types/node": 12.20.19
-    prisma: 2.30.0-dev.35
+    prisma: 2.30.0-integration-undici-4.3
     ts-node: 10.2.0
     typescript: 4.2.4
   languageName: unknown

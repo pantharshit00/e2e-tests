@@ -97,10 +97,10 @@
   dependencies:
     debug "^4.1.1"
 
-"@prisma/client@2.30.0-dev.35":
-  version "2.30.0-dev.35"
-  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.30.0-dev.35.tgz#1145ea048f6f9a877995d48658ebe0268ec4df50"
-  integrity sha512-GGJZbP2XN2BNqodTPPsgCDEPnjC0PK004F5kt8RNFU3nwsPOA5hV321jomPoXDcNLwf7TOneuhpAv5k4q6PcDg==
+"@prisma/client@2.30.0-integration-undici-4.3":
+  version "2.30.0-integration-undici-4.3"
+  resolved "https://registry.yarnpkg.com/@prisma/client/-/client-2.30.0-integration-undici-4.3.tgz#c60259e6a9d2139c7420f38edcf3bd8aa04fa49b"
+  integrity sha512-0ccR1XV5rz6f6DXrEBvHrmzcjz/x1oKzAj/T1WvhawJSpY3SHPzndWvQn1lhK0E79nz6LhhiW+6B41EJWrBE9A==
   dependencies:
     "@prisma/engines-version" "2.30.0-22.6ee261c643b2c461a20371f48ffa5090ed578aaf"
 
@@ -1208,10 +1208,10 @@ prelude-ls@~1.1.2:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
   integrity sha1-IZMqVJ9eUv/ZqCf1cOBL5iqX2lQ=
 
-prisma@2.30.0-dev.35:
-  version "2.30.0-dev.35"
-  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.30.0-dev.35.tgz#250398486a93abcb5c1aa3f17f301a5b79e9d4d5"
-  integrity sha512-G4DM/XsN1S810aBmzRhu9P42A8OsAAaK9SikhpklCCnQGCV0qqt558UEJNqLMIIUJtnmUdK1BS14zCYh9YzXnA==
+prisma@2.30.0-integration-undici-4.3:
+  version "2.30.0-integration-undici-4.3"
+  resolved "https://registry.yarnpkg.com/prisma/-/prisma-2.30.0-integration-undici-4.3.tgz#9860d3bb3930d40b90589f08ffcff34982d072c3"
+  integrity sha512-QhodEuE4CBXp42gitpWaDaYbQcLjMNitZWH+71h/CSWFdMAWc9G3guAOvbvu4yJAyf2W3eFQ+yjLep6YOzbtNw==
   dependencies:
     "@prisma/engines" "2.30.0-22.6ee261c643b2c461a20371f48ffa5090ed578aaf"
 
