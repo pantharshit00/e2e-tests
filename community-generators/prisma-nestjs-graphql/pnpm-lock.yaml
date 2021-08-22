@@ -1,18 +1,18 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@prisma/client': 2.30.0-dev.8
+  '@prisma/client': 2.29.1-dev.2
   jest: ^27.0.0
-  prisma: 2.30.0-dev.8
+  prisma: 2.29.1-dev.2
   prisma-nestjs-graphql: 11.4.5
 
 dependencies:
-  '@prisma/client': 2.30.0-dev.8_prisma@2.30.0-dev.8
+  '@prisma/client': 2.29.1-dev.2_prisma@2.29.1-dev.2
   jest: 27.0.6
 
 devDependencies:
-  prisma: 2.30.0-dev.8
-  prisma-nestjs-graphql: 11.4.5_@prisma+client@2.30.0-dev.8
+  prisma: 2.29.1-dev.2
+  prisma-nestjs-graphql: 11.4.5_@prisma+client@2.29.1-dev.2
 
 packages:
 
@@ -585,8 +585,8 @@ packages:
       fastq: 1.11.1
     dev: true
 
-  /@prisma/client/2.30.0-dev.8_prisma@2.30.0-dev.8:
-    resolution: {integrity: sha512-3wSQyi5tTumSlk+d2+qDiCWkZ2gAUU2pxCOFj7oARgFQ3abbPg09IsVi0zpaRhVSbxEFLksGSfrz5CJHLMW3og==}
+  /@prisma/client/2.29.1-dev.2_prisma@2.29.1-dev.2:
+    resolution: {integrity: sha512-EyuORJgQOzM73I4Eh8u0Im7j7t0bkKEfEVgr2ET0eCTgv0qIYJC0XLOCKGsIp+MFYd1HC8BX8uMq92CWIcPKcw==}
     engines: {node: '>=12.2'}
     requiresBuild: true
     peerDependencies:
@@ -595,8 +595,8 @@ packages:
       prisma:
         optional: true
     dependencies:
-      '@prisma/engines-version': 2.30.0-2.71d96e8bbd21982078694f00add0f51da2056a8b
-      prisma: 2.30.0-dev.8
+      '@prisma/engines-version': 2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a
+      prisma: 2.29.1-dev.2
     dev: false
 
   /@prisma/debug/2.29.0:
@@ -608,12 +608,12 @@ packages:
       - supports-color
     dev: true
 
-  /@prisma/engines-version/2.30.0-2.71d96e8bbd21982078694f00add0f51da2056a8b:
-    resolution: {integrity: sha512-CU/DI+59jyjR9fSGTlY0a+zR/4kUktpgAm8vOpRMU9pEjADjRzu8wkRCjNhBSq9+dQsKpMPtNTM3rj8/dv555g==}
+  /@prisma/engines-version/2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a:
+    resolution: {integrity: sha512-BU1DNNDhdzqjHtycpUzDrU8+jf6ZY+fbXvCV/rbqG+0JifljlIo4vbkHDMg97gBi1Do8pTLZGlTH16FlniKgAg==}
     dev: false
 
-  /@prisma/engines/2.30.0-2.71d96e8bbd21982078694f00add0f51da2056a8b:
-    resolution: {integrity: sha512-Wg4jywEpnNjHQ7DpPGUcwpS14XWfzXM768pgYwLSgwl2RdBpLS6uRXEw06nRRhcmncoHiXXU0aRb6ZS4rZPeFw==}
+  /@prisma/engines/2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a:
+    resolution: {integrity: sha512-cgEoGK3dmKZkMp/sRbL8TsuVS50rHXYBHk2NY18DPUGr5//4ICno46EjzlayqAFVak8J6RtWZEs+8tE8j8frAQ==}
     requiresBuild: true
     dev: true
 
@@ -2334,13 +2334,13 @@ packages:
       react-is: 17.0.2
     dev: false
 
-  /prisma-nestjs-graphql/11.4.5_@prisma+client@2.30.0-dev.8:
+  /prisma-nestjs-graphql/11.4.5_@prisma+client@2.29.1-dev.2:
     resolution: {integrity: sha512-NGlUubp6SkdIjaH1h8YLNO4+xY/EbGcbZJCXpHlg0O2CZSk0TJzW8D8rPfbQaGGXsu+bop9hItzX9JUbQuGQIw==}
     hasBin: true
     peerDependencies:
       '@prisma/client': '>=2.16'
     dependencies:
-      '@prisma/client': 2.30.0-dev.8_prisma@2.30.0-dev.8
+      '@prisma/client': 2.29.1-dev.2_prisma@2.29.1-dev.2
       '@prisma/generator-helper': 2.29.0
       await-event-emitter: 2.0.2
       filenamify: 4.3.0
@@ -2355,13 +2355,13 @@ packages:
       - supports-color
     dev: true
 
-  /prisma/2.30.0-dev.8:
-    resolution: {integrity: sha512-JiZvTyZTNmA1mlY4/qms8SUk5lYnR1obozhO0QkUyH28GhLpOeTbkYsOyOO//sGxEbm0af9dJdfvuPOKRbamjw==}
+  /prisma/2.29.1-dev.2:
+    resolution: {integrity: sha512-WSfwi32JQKKkR89f3LbSOHnNvZKpJcnx+zwm998YVBoP/ZtL37ZIcpWrsMJ1D6GPBY9nc2F0o8jaWQb9r20+4w==}
     engines: {node: '>=12.2'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 2.30.0-2.71d96e8bbd21982078694f00add0f51da2056a8b
+      '@prisma/engines': 2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a
     dev: true
 
   /prompts/2.4.1:

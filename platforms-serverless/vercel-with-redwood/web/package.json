@@ -13,12 +13,13 @@
     ]
   },
   "dependencies": {
+    "@prisma/client": "2.29.1-dev.2",
     "@redwoodjs/forms": "0.35.2",
     "@redwoodjs/router": "0.35.2",
     "@redwoodjs/web": "0.35.2",
+    "prisma": "2.29.1-dev.2",
     "prop-types": "15.7.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
-  },
-  "devDependencies": {}
+  }
 }

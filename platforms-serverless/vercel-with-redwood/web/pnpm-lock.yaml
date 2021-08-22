@@ -1,17 +1,21 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@prisma/client': 2.29.1-dev.2
   '@redwoodjs/forms': 0.35.2
   '@redwoodjs/router': 0.35.2
   '@redwoodjs/web': 0.35.2
+  prisma: 2.29.1-dev.2
   prop-types: 15.7.2
   react: 17.0.2
   react-dom: 17.0.2
 
 dependencies:
+  '@prisma/client': 2.29.1-dev.2_prisma@2.29.1-dev.2
   '@redwoodjs/forms': 0.35.2_react@17.0.2
   '@redwoodjs/router': 0.35.2_react-dom@17.0.2+react@17.0.2
   '@redwoodjs/web': 0.35.2_react-dom@17.0.2+react@17.0.2
+  prisma: 2.29.1-dev.2
   prop-types: 15.7.2
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -60,6 +64,29 @@ packages:
       graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
     dependencies:
       graphql: 15.5.1
+    dev: false
+
+  /@prisma/client/2.29.1-dev.2_prisma@2.29.1-dev.2:
+    resolution: {integrity: sha512-EyuORJgQOzM73I4Eh8u0Im7j7t0bkKEfEVgr2ET0eCTgv0qIYJC0XLOCKGsIp+MFYd1HC8BX8uMq92CWIcPKcw==}
+    engines: {node: '>=12.2'}
+    requiresBuild: true
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    dependencies:
+      '@prisma/engines-version': 2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a
+      prisma: 2.29.1-dev.2
+    dev: false
+
+  /@prisma/engines-version/2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a:
+    resolution: {integrity: sha512-BU1DNNDhdzqjHtycpUzDrU8+jf6ZY+fbXvCV/rbqG+0JifljlIo4vbkHDMg97gBi1Do8pTLZGlTH16FlniKgAg==}
+    dev: false
+
+  /@prisma/engines/2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a:
+    resolution: {integrity: sha512-cgEoGK3dmKZkMp/sRbL8TsuVS50rHXYBHk2NY18DPUGr5//4ICno46EjzlayqAFVak8J6RtWZEs+8tE8j8frAQ==}
+    requiresBuild: true
     dev: false
 
   /@reach/skip-nav/0.15.2_react-dom@17.0.2+react@17.0.2:
@@ -233,6 +260,15 @@ packages:
   /pascalcase/1.0.0:
     resolution: {integrity: sha512-BSExi0rRnCHReJys6NocaK+cfTXNinAegfWBvr0JD3hiaEG7Nuc7r0CIdOJunXrs8gU/sbHQ9dxVAtiVQisjmg==}
     engines: {node: '>=8'}
+    dev: false
+
+  /prisma/2.29.1-dev.2:
+    resolution: {integrity: sha512-WSfwi32JQKKkR89f3LbSOHnNvZKpJcnx+zwm998YVBoP/ZtL37ZIcpWrsMJ1D6GPBY9nc2F0o8jaWQb9r20+4w==}
+    engines: {node: '>=12.2'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a
     dev: false
 
   /prop-types/15.7.2:

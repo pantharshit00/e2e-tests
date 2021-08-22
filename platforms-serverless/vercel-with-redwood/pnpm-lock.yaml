@@ -1,21 +1,21 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@prisma/client': 2.30.0-dev.6
+  '@prisma/client': 2.29.1-dev.2
   '@redwoodjs/core': 0.35.2
   graphql-request: 3.5.0
   jest: 27.0.6
-  prisma: 2.30.0-dev.6
+  prisma: 2.29.1-dev.2
   vercel: 23.1.2
 
 dependencies:
-  '@prisma/client': 2.30.0-dev.6_prisma@2.30.0-dev.6
+  '@prisma/client': 2.29.1-dev.2_prisma@2.29.1-dev.2
 
 devDependencies:
   '@redwoodjs/core': 0.35.2
   graphql-request: 3.5.0
   jest: 27.0.6
-  prisma: 2.30.0-dev.6
+  prisma: 2.29.1-dev.2
   vercel: 23.1.2
 
 packages:
@@ -3132,8 +3132,8 @@ packages:
     resolution: {integrity: sha512-xDu17cEfh7Kid/d95kB6tZsLOmSWKCZKtprnhVepjsSaCij+lM3mItSJDuuHDMbCWTh8Ejmebwb+KONcCJ0eXQ==}
     dev: true
 
-  /@prisma/client/2.30.0-dev.6_prisma@2.30.0-dev.6:
-    resolution: {integrity: sha512-zP4MxgQZEiWWUrR1JjKmjq463l/6mQuiE6Wpl4pTzpwE3c72B5tNXo+8RXmWwpzwxneRvdeLTLz6/dCKKKqCFQ==}
+  /@prisma/client/2.29.1-dev.2_prisma@2.29.1-dev.2:
+    resolution: {integrity: sha512-EyuORJgQOzM73I4Eh8u0Im7j7t0bkKEfEVgr2ET0eCTgv0qIYJC0XLOCKGsIp+MFYd1HC8BX8uMq92CWIcPKcw==}
     engines: {node: '>=12.2'}
     requiresBuild: true
     peerDependencies:
@@ -3142,8 +3142,8 @@ packages:
       prisma:
         optional: true
     dependencies:
-      '@prisma/engines-version': 2.30.0-1.1be4cd60b89afa04b192acb1ef47758a39810f3a
-      prisma: 2.30.0-dev.6
+      '@prisma/engines-version': 2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a
+      prisma: 2.29.1-dev.2
     dev: false
 
   /@prisma/debug/2.26.0:
@@ -3174,8 +3174,8 @@ packages:
       - supports-color
     dev: true
 
-  /@prisma/engines-version/2.30.0-1.1be4cd60b89afa04b192acb1ef47758a39810f3a:
-    resolution: {integrity: sha512-8u9aGUvhemKtxZ7b3j/RUX7mLae0vqPBOX3LyYNW5fxfVH9vdRqYUdEiGCf99FxahpiU4FwGImNgkJG1TkzcmQ==}
+  /@prisma/engines-version/2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a:
+    resolution: {integrity: sha512-BU1DNNDhdzqjHtycpUzDrU8+jf6ZY+fbXvCV/rbqG+0JifljlIo4vbkHDMg97gBi1Do8pTLZGlTH16FlniKgAg==}
     dev: false
 
   /@prisma/engines/2.26.0-23.9b816b3aa13cc270074f172f30d6eda8a8ce867d:
@@ -3183,8 +3183,8 @@ packages:
     requiresBuild: true
     dev: true
 
-  /@prisma/engines/2.30.0-1.1be4cd60b89afa04b192acb1ef47758a39810f3a:
-    resolution: {integrity: sha512-v4MVFsZr3WAtAxGeivAfskwUfqn+V/Nzf0i9EKM9c5fZCLbvtJ/hfYgihNi3a5s1PZG/4z9+NpJBL2oxPAB3qg==}
+  /@prisma/engines/2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a:
+    resolution: {integrity: sha512-cgEoGK3dmKZkMp/sRbL8TsuVS50rHXYBHk2NY18DPUGr5//4ICno46EjzlayqAFVak8J6RtWZEs+8tE8j8frAQ==}
     requiresBuild: true
     dev: true
 
@@ -15104,13 +15104,13 @@ packages:
       '@prisma/engines': 2.26.0-23.9b816b3aa13cc270074f172f30d6eda8a8ce867d
     dev: true
 
-  /prisma/2.30.0-dev.6:
-    resolution: {integrity: sha512-Xqx00GQ75JE6l7bBYT2ZtkuFWciwAwFLKoEs0idZyQeuoaEsyFRLGljkNuIoNmjdDSdJjEW1KuPFddHqps29gg==}
+  /prisma/2.29.1-dev.2:
+    resolution: {integrity: sha512-WSfwi32JQKKkR89f3LbSOHnNvZKpJcnx+zwm998YVBoP/ZtL37ZIcpWrsMJ1D6GPBY9nc2F0o8jaWQb9r20+4w==}
     engines: {node: '>=12.2'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 2.30.0-1.1be4cd60b89afa04b192acb1ef47758a39810f3a
+      '@prisma/engines': 2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a
     dev: true
 
   /prismjs/1.24.1:

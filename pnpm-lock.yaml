@@ -1,20 +1,24 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@prisma/client': 2.29.1-dev.2
   '@types/node': 14.14.30
-  arg: 5.0.0
+  arg: 5.0.1
   fetch-retry: 4.1.1
   glob: 7.1.7
   node-fetch: 2.6.1
+  prisma: 2.29.1-dev.2
   ts-node: 10.2.0
   typescript: 4.2.4
   yaml: 2.0.0-7
 
 dependencies:
-  arg: 5.0.0
+  '@prisma/client': 2.29.1-dev.2_prisma@2.29.1-dev.2
+  arg: 5.0.1
   fetch-retry: 4.1.1
   glob: 7.1.7
   node-fetch: 2.6.1
+  prisma: 2.29.1-dev.2
   yaml: 2.0.0-7
 
 devDependencies:
@@ -35,6 +39,29 @@ packages:
     dependencies:
       '@cspotcode/source-map-consumer': 0.8.0
     dev: true
+
+  /@prisma/client/2.29.1-dev.2_prisma@2.29.1-dev.2:
+    resolution: {integrity: sha512-EyuORJgQOzM73I4Eh8u0Im7j7t0bkKEfEVgr2ET0eCTgv0qIYJC0XLOCKGsIp+MFYd1HC8BX8uMq92CWIcPKcw==}
+    engines: {node: '>=12.2'}
+    requiresBuild: true
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    dependencies:
+      '@prisma/engines-version': 2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a
+      prisma: 2.29.1-dev.2
+    dev: false
+
+  /@prisma/engines-version/2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a:
+    resolution: {integrity: sha512-BU1DNNDhdzqjHtycpUzDrU8+jf6ZY+fbXvCV/rbqG+0JifljlIo4vbkHDMg97gBi1Do8pTLZGlTH16FlniKgAg==}
+    dev: false
+
+  /@prisma/engines/2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a:
+    resolution: {integrity: sha512-cgEoGK3dmKZkMp/sRbL8TsuVS50rHXYBHk2NY18DPUGr5//4ICno46EjzlayqAFVak8J6RtWZEs+8tE8j8frAQ==}
+    requiresBuild: true
+    dev: false
 
   /@tsconfig/node10/1.0.8:
     resolution: {integrity: sha512-6XFfSQmMgq0CFLY1MslA/CPUfhIL919M1rMsa5lP2P097N2Wd1sSX0tx1u4olM16fLNhtHZpRhedZJphNJqmZg==}
@@ -71,8 +98,8 @@ packages:
     resolution: {integrity: sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==}
     dev: true
 
-  /arg/5.0.0:
-    resolution: {integrity: sha512-4P8Zm2H+BRS+c/xX1LrHw0qKpEhdlZjLCgWy+d78T9vqa2Z2SiD2wMrYuWIAFy5IZUD7nnNXroRttz+0RzlrzQ==}
+  /arg/5.0.1:
+    resolution: {integrity: sha512-e0hDa9H2Z9AwFkk2qDlwhoMYE4eToKarchkQHovNdLTCYMHZHeRjI71crOh+dio4K6u1IcwubQqo79Ga4CyAQA==}
     dev: false
 
   /balanced-match/1.0.2:
@@ -153,6 +180,15 @@ packages:
   /path-is-absolute/1.0.1:
     resolution: {integrity: sha1-F0uSaHNVNP+8es5r9TpanhtcX18=}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /prisma/2.29.1-dev.2:
+    resolution: {integrity: sha512-WSfwi32JQKKkR89f3LbSOHnNvZKpJcnx+zwm998YVBoP/ZtL37ZIcpWrsMJ1D6GPBY9nc2F0o8jaWQb9r20+4w==}
+    engines: {node: '>=12.2'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 2.29.0-34.1be4cd60b89afa04b192acb1ef47758a39810f3a
     dev: false
 
   /ts-node/10.2.0_b7f7f203f39c510c8a16a0424b338e11:
