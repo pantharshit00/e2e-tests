@@ -1,16 +1,16 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@prisma/client': 2.30.0-dev.6
+  '@prisma/client': 2.28.0
   '@redwoodjs/api': 0.35.2
-  prisma: 2.30.0-dev.6
+  prisma: 2.28.0
 
 dependencies:
-  '@prisma/client': 2.30.0-dev.6_prisma@2.30.0-dev.6
-  '@redwoodjs/api': 0.35.2_prisma@2.30.0-dev.6
+  '@prisma/client': 2.28.0_prisma@2.28.0
+  '@redwoodjs/api': 0.35.2_prisma@2.28.0
 
 devDependencies:
-  prisma: 2.30.0-dev.6
+  prisma: 2.28.0
 
 packages:
 
@@ -109,7 +109,7 @@ packages:
     resolution: {integrity: sha512-CtzORUwWTTOTqfVtHaKRJ0I1kNQd1bpn3sUh8I3nJDVY+5/M/Oe1DnEWzPQvqq/xPIIkzzzIP7mfCoAjFRvDhg==}
     dev: false
 
-  /@prisma/client/2.26.0_prisma@2.30.0-dev.6:
+  /@prisma/client/2.26.0_prisma@2.28.0:
     resolution: {integrity: sha512-iwhjdUV/MEQZ7RzTEcZ/D+ewxx/pGExWJ2LypfHioJIvEMyK0saPiR0tjMvMT2I2SVzrIM5dXGhBHWi2JksWrQ==}
     engines: {node: '>=12.2'}
     requiresBuild: true
@@ -120,11 +120,11 @@ packages:
         optional: true
     dependencies:
       '@prisma/engines-version': 2.26.0-23.9b816b3aa13cc270074f172f30d6eda8a8ce867d
-      prisma: 2.30.0-dev.6
+      prisma: 2.28.0
     dev: false
 
-  /@prisma/client/2.30.0-dev.6_prisma@2.30.0-dev.6:
-    resolution: {integrity: sha512-zP4MxgQZEiWWUrR1JjKmjq463l/6mQuiE6Wpl4pTzpwE3c72B5tNXo+8RXmWwpzwxneRvdeLTLz6/dCKKKqCFQ==}
+  /@prisma/client/2.28.0_prisma@2.28.0:
+    resolution: {integrity: sha512-iwdxpy0Nz8N40MnhdlRvhZOBk8+GawpEsY5FU8Tfw1k9rvIeTAi+wBHrqhY8bXq6pneZkzrdQ1Hj3tqkrbRmoQ==}
     engines: {node: '>=12.2'}
     requiresBuild: true
     peerDependencies:
@@ -133,20 +133,20 @@ packages:
       prisma:
         optional: true
     dependencies:
-      '@prisma/engines-version': 2.30.0-1.1be4cd60b89afa04b192acb1ef47758a39810f3a
-      prisma: 2.30.0-dev.6
+      '@prisma/engines-version': 2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27
+      prisma: 2.28.0
     dev: false
 
   /@prisma/engines-version/2.26.0-23.9b816b3aa13cc270074f172f30d6eda8a8ce867d:
     resolution: {integrity: sha512-8tygPkPxag3myF5fgNQ60zwnNSZzFf4J+DXGKykXaBLLt9W2FLkaE5sVL8/OqAGhLAnVsKj83CqPms35bKrTKw==}
     dev: false
 
-  /@prisma/engines-version/2.30.0-1.1be4cd60b89afa04b192acb1ef47758a39810f3a:
-    resolution: {integrity: sha512-8u9aGUvhemKtxZ7b3j/RUX7mLae0vqPBOX3LyYNW5fxfVH9vdRqYUdEiGCf99FxahpiU4FwGImNgkJG1TkzcmQ==}
+  /@prisma/engines-version/2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27:
+    resolution: {integrity: sha512-BWTvF1mGxjG8EtG215uhxdeW5Uf5aiH4xhfzcFPFC3Ux5BdEM1uEBrLIixX67mI+ZNhqNZSBPf0DSf2I1IsaZw==}
     dev: false
 
-  /@prisma/engines/2.30.0-1.1be4cd60b89afa04b192acb1ef47758a39810f3a:
-    resolution: {integrity: sha512-v4MVFsZr3WAtAxGeivAfskwUfqn+V/Nzf0i9EKM9c5fZCLbvtJ/hfYgihNi3a5s1PZG/4z9+NpJBL2oxPAB3qg==}
+  /@prisma/engines/2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27:
+    resolution: {integrity: sha512-r3/EnwKjbu2qz13I98hPQQdeFrOEcwdjlrB9CcoSoqRCjSHLnpdVMUvRfYuRKIoEF7p941R7/Fov0/CxOLF/MQ==}
     requiresBuild: true
     dev: true
 
@@ -193,11 +193,11 @@ packages:
     resolution: {integrity: sha1-p3c2C1s5oaLlEG+OhY8v0tBgxXA=}
     dev: false
 
-  /@redwoodjs/api/0.35.2_prisma@2.30.0-dev.6:
+  /@redwoodjs/api/0.35.2_prisma@2.28.0:
     resolution: {integrity: sha512-M3OxTPoKCZN97/VgQQKDpxzMevofHzj2wpmee1xxVJk+yCqdrmqwK4a68apI7anf4yeveBUlEKuaJRTZGF62nQ==}
     dependencies:
       '@graphql-tools/merge': 6.2.14_graphql@15.5.1
-      '@prisma/client': 2.26.0_prisma@2.30.0-dev.6
+      '@prisma/client': 2.26.0_prisma@2.28.0
       '@types/pino': 6.3.8
       apollo-server-lambda: 2.25.2_graphql@15.5.1
       core-js: 3.15.2
@@ -1295,13 +1295,13 @@ packages:
       sonic-boom: 1.4.1
     dev: false
 
-  /prisma/2.30.0-dev.6:
-    resolution: {integrity: sha512-Xqx00GQ75JE6l7bBYT2ZtkuFWciwAwFLKoEs0idZyQeuoaEsyFRLGljkNuIoNmjdDSdJjEW1KuPFddHqps29gg==}
+  /prisma/2.28.0:
+    resolution: {integrity: sha512-f83KPLy3xk07KMY4e5otNwP2I+GsdftjOfu3e8snXylnyAC1oEpRZNe7rmONr0vAI+Qgz3LFRArhWUE/dFjKIA==}
     engines: {node: '>=12.2'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 2.30.0-1.1be4cd60b89afa04b192acb1ef47758a39810f3a
+      '@prisma/engines': 2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27
     dev: true
 
   /pseudomap/1.0.2:

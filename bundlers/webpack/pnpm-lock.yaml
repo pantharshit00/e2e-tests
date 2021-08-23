@@ -1,23 +1,23 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@prisma/client': 2.30.0-dev.8
+  '@prisma/client': 2.28.0
   dotenv: ^10.0.0
   jest: 27.0.6
-  prisma: 2.30.0-dev.8
-  webpack: 5.50.0
-  webpack-cli: 4.7.2
+  prisma: 2.28.0
+  webpack: 5.51.1
+  webpack-cli: 4.8.0
   webpack-node-externals: 3.0.0
 
 dependencies:
-  '@prisma/client': 2.30.0-dev.8_prisma@2.30.0-dev.8
+  '@prisma/client': 2.28.0_prisma@2.28.0
   dotenv: 10.0.0
 
 devDependencies:
   jest: 27.0.6
-  prisma: 2.30.0-dev.8
-  webpack: 5.50.0_webpack-cli@4.7.2
-  webpack-cli: 4.7.2_webpack@5.50.0
+  prisma: 2.28.0
+  webpack: 5.51.1_webpack-cli@4.8.0
+  webpack-cli: 4.8.0_webpack@5.51.1
   webpack-node-externals: 3.0.0
 
 packages:
@@ -575,8 +575,8 @@ packages:
       chalk: 4.1.2
     dev: true
 
-  /@prisma/client/2.30.0-dev.8_prisma@2.30.0-dev.8:
-    resolution: {integrity: sha512-3wSQyi5tTumSlk+d2+qDiCWkZ2gAUU2pxCOFj7oARgFQ3abbPg09IsVi0zpaRhVSbxEFLksGSfrz5CJHLMW3og==}
+  /@prisma/client/2.28.0_prisma@2.28.0:
+    resolution: {integrity: sha512-iwdxpy0Nz8N40MnhdlRvhZOBk8+GawpEsY5FU8Tfw1k9rvIeTAi+wBHrqhY8bXq6pneZkzrdQ1Hj3tqkrbRmoQ==}
     engines: {node: '>=12.2'}
     requiresBuild: true
     peerDependencies:
@@ -585,16 +585,16 @@ packages:
       prisma:
         optional: true
     dependencies:
-      '@prisma/engines-version': 2.30.0-2.71d96e8bbd21982078694f00add0f51da2056a8b
-      prisma: 2.30.0-dev.8
+      '@prisma/engines-version': 2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27
+      prisma: 2.28.0
     dev: false
 
-  /@prisma/engines-version/2.30.0-2.71d96e8bbd21982078694f00add0f51da2056a8b:
-    resolution: {integrity: sha512-CU/DI+59jyjR9fSGTlY0a+zR/4kUktpgAm8vOpRMU9pEjADjRzu8wkRCjNhBSq9+dQsKpMPtNTM3rj8/dv555g==}
+  /@prisma/engines-version/2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27:
+    resolution: {integrity: sha512-BWTvF1mGxjG8EtG215uhxdeW5Uf5aiH4xhfzcFPFC3Ux5BdEM1uEBrLIixX67mI+ZNhqNZSBPf0DSf2I1IsaZw==}
     dev: false
 
-  /@prisma/engines/2.30.0-2.71d96e8bbd21982078694f00add0f51da2056a8b:
-    resolution: {integrity: sha512-Wg4jywEpnNjHQ7DpPGUcwpS14XWfzXM768pgYwLSgwl2RdBpLS6uRXEw06nRRhcmncoHiXXU0aRb6ZS4rZPeFw==}
+  /@prisma/engines/2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27:
+    resolution: {integrity: sha512-r3/EnwKjbu2qz13I98hPQQdeFrOEcwdjlrB9CcoSoqRCjSHLnpdVMUvRfYuRKIoEF7p941R7/Fov0/CxOLF/MQ==}
     requiresBuild: true
     dev: true
 
@@ -816,27 +816,27 @@ packages:
       '@xtuc/long': 4.2.2
     dev: true
 
-  /@webpack-cli/configtest/1.0.4_webpack-cli@4.7.2+webpack@5.50.0:
+  /@webpack-cli/configtest/1.0.4_webpack-cli@4.8.0+webpack@5.51.1:
     resolution: {integrity: sha512-cs3XLy+UcxiP6bj0A6u7MLLuwdXJ1c3Dtc0RkKg+wiI1g/Ti1om8+/2hc2A2B60NbBNAbMgyBMHvyymWm/j4wQ==}
     peerDependencies:
       webpack: 4.x.x || 5.x.x
       webpack-cli: 4.x.x
     dependencies:
-      webpack: 5.50.0_webpack-cli@4.7.2
-      webpack-cli: 4.7.2_webpack@5.50.0
+      webpack: 5.51.1_webpack-cli@4.8.0
+      webpack-cli: 4.8.0_webpack@5.51.1
     dev: true
 
-  /@webpack-cli/info/1.3.0_webpack-cli@4.7.2:
+  /@webpack-cli/info/1.3.0_webpack-cli@4.8.0:
     resolution: {integrity: sha512-ASiVB3t9LOKHs5DyVUcxpraBXDOKubYu/ihHhU+t1UPpxsivg6Od2E2qU4gJCekfEddzRBzHhzA/Acyw/mlK/w==}
     peerDependencies:
       webpack-cli: 4.x.x
     dependencies:
       envinfo: 7.8.1
-      webpack-cli: 4.7.2_webpack@5.50.0
+      webpack-cli: 4.8.0_webpack@5.51.1
     dev: true
 
-  /@webpack-cli/serve/1.5.1_webpack-cli@4.7.2:
-    resolution: {integrity: sha512-4vSVUiOPJLmr45S8rMGy7WDvpWxfFxfP/Qx/cxZFCfvoypTYpPPL1X8VIZMe0WTA+Jr7blUxwUSEZNkjoMTgSw==}
+  /@webpack-cli/serve/1.5.2_webpack-cli@4.8.0:
+    resolution: {integrity: sha512-vgJ5OLWadI8aKjDlOH3rb+dYyPd2GTZuQC/Tihjct6F9GpXGZINo3Y/IVuZVTM1eDQB+/AOsjPUWH/WySDaXvw==}
     peerDependencies:
       webpack-cli: 4.x.x
       webpack-dev-server: '*'
@@ -844,7 +844,7 @@ packages:
       webpack-dev-server:
         optional: true
     dependencies:
-      webpack-cli: 4.7.2_webpack@5.50.0
+      webpack-cli: 4.8.0_webpack@5.51.1
     dev: true
 
   /@xtuc/ieee754/1.2.0:
@@ -2531,13 +2531,13 @@ packages:
       react-is: 17.0.2
     dev: true
 
-  /prisma/2.30.0-dev.8:
-    resolution: {integrity: sha512-JiZvTyZTNmA1mlY4/qms8SUk5lYnR1obozhO0QkUyH28GhLpOeTbkYsOyOO//sGxEbm0af9dJdfvuPOKRbamjw==}
+  /prisma/2.28.0:
+    resolution: {integrity: sha512-f83KPLy3xk07KMY4e5otNwP2I+GsdftjOfu3e8snXylnyAC1oEpRZNe7rmONr0vAI+Qgz3LFRArhWUE/dFjKIA==}
     engines: {node: '>=12.2'}
     hasBin: true
     requiresBuild: true
     dependencies:
-      '@prisma/engines': 2.30.0-2.71d96e8bbd21982078694f00add0f51da2056a8b
+      '@prisma/engines': 2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27
     dev: true
 
   /prompts/2.4.1:
@@ -2797,7 +2797,7 @@ packages:
       supports-hyperlinks: 2.2.0
     dev: true
 
-  /terser-webpack-plugin/5.1.4_webpack@5.50.0:
+  /terser-webpack-plugin/5.1.4_webpack@5.51.1:
     resolution: {integrity: sha512-C2WkFwstHDhVEmsmlCxrXUtVklS+Ir1A7twrYzrDrQQOIMOaVAYykaoo/Aq1K0QRkMoY2hhvDQY1cm4jnIMFwA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -2809,7 +2809,7 @@ packages:
       serialize-javascript: 6.0.0
       source-map: 0.6.1
       terser: 5.7.1
-      webpack: 5.50.0_webpack-cli@4.7.2
+      webpack: 5.51.1_webpack-cli@4.8.0
     dev: true
 
   /terser/5.7.1:
@@ -2951,8 +2951,8 @@ packages:
     engines: {node: '>=10.4'}
     dev: true
 
-  /webpack-cli/4.7.2_webpack@5.50.0:
-    resolution: {integrity: sha512-mEoLmnmOIZQNiRl0ebnjzQ74Hk0iKS5SiEEnpq3dRezoyR3yPaeQZCMCe+db4524pj1Pd5ghZXjT41KLzIhSLw==}
+  /webpack-cli/4.8.0_webpack@5.51.1:
+    resolution: {integrity: sha512-+iBSWsX16uVna5aAYN6/wjhJy1q/GKk4KjKvfg90/6hykCTSgozbfz5iRgDTSJt/LgSbYxdBX3KBHeobIs+ZEw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -2972,9 +2972,9 @@ packages:
         optional: true
     dependencies:
       '@discoveryjs/json-ext': 0.5.3
-      '@webpack-cli/configtest': 1.0.4_webpack-cli@4.7.2+webpack@5.50.0
-      '@webpack-cli/info': 1.3.0_webpack-cli@4.7.2
-      '@webpack-cli/serve': 1.5.1_webpack-cli@4.7.2
+      '@webpack-cli/configtest': 1.0.4_webpack-cli@4.8.0+webpack@5.51.1
+      '@webpack-cli/info': 1.3.0_webpack-cli@4.8.0
+      '@webpack-cli/serve': 1.5.2_webpack-cli@4.8.0
       colorette: 1.3.0
       commander: 7.2.0
       execa: 5.1.1
@@ -2983,7 +2983,7 @@ packages:
       interpret: 2.2.0
       rechoir: 0.7.1
       v8-compile-cache: 2.3.0
-      webpack: 5.50.0_webpack-cli@4.7.2
+      webpack: 5.51.1_webpack-cli@4.8.0
       webpack-merge: 5.8.0
     dev: true
 
@@ -3005,8 +3005,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: true
 
-  /webpack/5.50.0_webpack-cli@4.7.2:
-    resolution: {integrity: sha512-hqxI7t/KVygs0WRv/kTgUW8Kl3YC81uyWQSo/7WUs5LsuRw0htH/fCwbVBGCuiX/t4s7qzjXFcf41O8Reiypag==}
+  /webpack/5.51.1_webpack-cli@4.8.0:
+    resolution: {integrity: sha512-xsn3lwqEKoFvqn4JQggPSRxE4dhsRcysWTqYABAZlmavcoTmwlOb9b1N36Inbt/eIispSkuHa80/FJkDTPos1A==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -3036,9 +3036,9 @@ packages:
       neo-async: 2.6.2
       schema-utils: 3.1.1
       tapable: 2.2.0
-      terser-webpack-plugin: 5.1.4_webpack@5.50.0
+      terser-webpack-plugin: 5.1.4_webpack@5.51.1
       watchpack: 2.2.0
-      webpack-cli: 4.7.2_webpack@5.50.0
+      webpack-cli: 4.8.0_webpack@5.51.1
       webpack-sources: 3.2.0
     dev: true
 

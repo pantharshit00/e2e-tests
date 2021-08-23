@@ -1,0 +1,43 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@prisma/client': 2.28.0
+  prisma: 2.28.0
+
+dependencies:
+  '@prisma/client': 2.28.0_prisma@2.28.0
+  prisma: 2.28.0
+
+packages:
+
+  /@prisma/client/2.28.0_prisma@2.28.0:
+    resolution: {integrity: sha512-iwdxpy0Nz8N40MnhdlRvhZOBk8+GawpEsY5FU8Tfw1k9rvIeTAi+wBHrqhY8bXq6pneZkzrdQ1Hj3tqkrbRmoQ==}
+    engines: {node: '>=12.2'}
+    requiresBuild: true
+    peerDependencies:
+      prisma: '*'
+    peerDependenciesMeta:
+      prisma:
+        optional: true
+    dependencies:
+      '@prisma/engines-version': 2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27
+      prisma: 2.28.0
+    dev: false
+
+  /@prisma/engines-version/2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27:
+    resolution: {integrity: sha512-BWTvF1mGxjG8EtG215uhxdeW5Uf5aiH4xhfzcFPFC3Ux5BdEM1uEBrLIixX67mI+ZNhqNZSBPf0DSf2I1IsaZw==}
+    dev: false
+
+  /@prisma/engines/2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27:
+    resolution: {integrity: sha512-r3/EnwKjbu2qz13I98hPQQdeFrOEcwdjlrB9CcoSoqRCjSHLnpdVMUvRfYuRKIoEF7p941R7/Fov0/CxOLF/MQ==}
+    requiresBuild: true
+    dev: false
+
+  /prisma/2.28.0:
+    resolution: {integrity: sha512-f83KPLy3xk07KMY4e5otNwP2I+GsdftjOfu3e8snXylnyAC1oEpRZNe7rmONr0vAI+Qgz3LFRArhWUE/dFjKIA==}
+    engines: {node: '>=12.2'}
+    hasBin: true
+    requiresBuild: true
+    dependencies:
+      '@prisma/engines': 2.28.0-17.89facabd0366f63911d089156a7a70125bfbcd27
+    dev: false
